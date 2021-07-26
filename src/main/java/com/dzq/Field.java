@@ -35,12 +35,12 @@ public interface Field {
      * 为空时的默认值，设置的时候和取得的时候
      * @return
      */
-    public Comparable defaultValue();
+    public Comparable<? extends Comparable> defaultValue();
     /**
      * 字段值,真正使用的值
      * @return
      */
-    public Comparable value();
+    public Comparable<? extends Comparable> value();
 
     /**
      * 是否可以为空
