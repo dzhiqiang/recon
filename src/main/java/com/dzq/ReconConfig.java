@@ -2,7 +2,7 @@ package com.dzq;
 
 import java.util.List;
 
-public interface ReconConfig {
+public interface ReconConfig extends Task{
     // 获取配置唯一键
     public long getId();
     // 对账名称
