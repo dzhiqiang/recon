@@ -11,9 +11,15 @@ public interface ReconConfig extends Task{
     public String getModel();
     /**
      * 对账周期
-     * @return 周期 T ,D
+     * @return 周期 T ,D ,H
      */
     public String getCycle();
+
+    /**
+     * 执行时间 08:00 每天8点执行 15 每小时15分执行
+     * @return
+     */
+    public String runTime();
 
     /**
      * 最基本的对账字段，会根据最基本的字段排序
