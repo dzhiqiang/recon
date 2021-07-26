@@ -3,9 +3,9 @@ package com.dzq.service;
 import java.util.List;
 
 /**
- * 对账数据源，推送数据
+ * 数据推送装置
  */
-public interface DataSource {
+public interface PushDevice {
     /**
      * 推送一条
      */
@@ -15,7 +15,7 @@ public interface DataSource {
      */
     public void batchPush(List<String> msg);
     /**
-     * 目前返回数量
+     * 返回推送数量
      */
     public long count();
 
