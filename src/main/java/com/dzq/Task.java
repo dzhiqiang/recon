@@ -20,9 +20,9 @@ public interface Task {
     public boolean pause();
 
     /**
-     * 重启
+     * 启动
      * @return 重启是否成功 true:成功，false:失败
      */
-    public boolean restart();
+    public boolean resume();
 
 }
