@@ -36,31 +36,31 @@ public interface ReconConfig extends Task{
      * 主数据源配置
      * @return 数据源配置
      */
-    public DataSourceConfig masterDataSourceConfig();
+    public DataRepositoryConfig masterDataRepositoryConfig();
 
     /**
      * 从数据源配置
      * @return 数据源配置
      */
-    public DataSourceConfig slaverDataSourceConfig();
+    public DataRepositoryConfig slaverDataRepositoryConfig();
 
     /**
      * 主数据仓库的数据源
      * @return 数据源配置
      */
-    public DataSourceConfig masterCompareDataSourceConfig();
+    public DataRepositoryConfig masterCompareDataRepositoryConfig();
 
     /**
      * 主数据仓库的数据源
      * @return 数据源配置
      */
-    public DataSourceConfig slaverCompareDataSourceConfig();
+    public DataRepositoryConfig slaverCompareDataRepositoryConfig();
 
     /**
      * 对账结果数据源
      * @return 数据源配置
      */
-    public DataSourceConfig reconDataSourceConfig();
+    public DataRepositoryConfig reconDataRepositoryConfig();
 
     /**
      * 主数据列信息
